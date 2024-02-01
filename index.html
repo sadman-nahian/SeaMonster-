@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sea Monster</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ....header row with a logo.... -->
+    <div class="header">
+        <img src="assets/tentacles.png" alt="img not found" id="tentacles">
+        <h1>Sea Monster Crowd Funding</h1>
+    </div>
+
+    <!-- ....background info about company.... -->
+    <h2>Welcome to sea Monster</h2>
+    <div id="description-container">The purpose of this company is to fund independent games .We have been operating since 12 years .</div>
+
+    <!-- ....top games and other intersesting stats.... -->
+    <h2>Stats</h2>
+    <div class="stats-container">
+        <div class="stats-card">
+            <h3>Individual Contribution </h3>
+            <p id="num-contributions"></p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Raised</h3>
+            <p id="total-raised"></p>
+        </div>
+        <div class="stats-card">
+            <h3>Total Number of Games</h3>
+            <p id="num-games"></p>
+        </div>
+    </div>
+    <div class="stats-container" id="top-games">
+        <div class="stats-card" id="first-game">
+            <h3>🥇 Top Funded Game</h3>
+        </div>
+        <div class="stats-card" id ="second-game">
+            <h3>🥈 Runner Up</h3>
+        </div>
+    </div>
+
+    <!-- list of games funded by Sea Monster -->
+    <h2>Our Games</h2>
+    <p>Check out each of our game below</p>
+    <div id="button-container">
+        <button id="unfunded-btn">Show unfunded only</button>
+        <button id="funded-btn">Show funded only
+        </button>
+        <button id="all-btn">Show all games</button>
+
+
+
+    </div>
+    <div id="games-conainer">
+
+    </div>
+
+
+<script type="module" src="index.js"></script>  
+</body>
+</html>
